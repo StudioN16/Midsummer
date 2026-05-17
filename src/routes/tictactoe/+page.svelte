@@ -203,11 +203,11 @@
 				class="w-28 h-28 rounded-xl overflow-hidden border-2 border-purple-900 hover:border-purple-600 transition-all duration-200"
 			>
 				{#if cell === null}
-					<img src="/moth.webp" alt="moth" class="w-full h-full object-cover opacity-60 hover:opacity-100 transition-opacity"/>
+					<img src="/Midsummer/moth.webp" alt="moth" class="w-full h-full object-cover opacity-60 hover:opacity-100 transition-opacity"/>
 				{:else if cell === 1}
-					<img src="/player1.png" alt="player 1" class="w-full h-full object-cover object-top"/>
+					<img src="/Midsummer/player1.png" alt="player 1" class="w-full h-full object-cover object-top"/>
 				{:else}
-					<img src="/player2.png" alt="player 2" class="w-full h-full object-cover object-top"/>
+					<img src="/Midsummer/player2.png" alt="player 2" class="w-full h-full object-cover object-top"/>
 				{/if}
 			</button>
 		{/each}
