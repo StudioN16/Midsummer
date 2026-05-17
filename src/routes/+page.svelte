@@ -1,5 +1,6 @@
 <script>
 	import { fly } from 'svelte/transition';
+	import { base } from '$app/paths';
 
 	let visible = true;
 </script>
@@ -58,11 +59,12 @@
 			<p class="text-purple-700 text-xs tracking-widest">PGT Style</p>
 
 			<div class="flex flex-col gap-3 mt-6 w-full max-w-xs">
-				<a href="/quotes" class="px-6 py-3 rounded-full border border-purple-800 text-purple-400 hover:bg-purple-950 hover:text-purple-200 transition-all duration-300 text-sm tracking-widest uppercase">
-					Quotes
-				</a>
-				<a href="/tictactoe" class="px-6 py-3 rounded-full border border-purple-800 text-purple-400 hover:bg-purple-950 hover:text-purple-200 transition-all duration-300 text-sm tracking-widest uppercase">
-					Moth Tac Toe
+				<a href="{base}/quotes" class="px-6 py-3 rounded-full border border-purple-800 text-purple-400 hover:bg-purple-950 hover:text-purple-200 transition-all duration-300 text-sm tracking-widest uppercase">
+	Quotes
+</a>
+<a href="{base}/tictactoe" class="px-6 py-3 rounded-full border border-purple-800 text-purple-400 hover:bg-purple-950 hover:text-purple-200 transition-all duration-300 text-sm tracking-widest uppercase">
+	Moth Tac Toe
+</a>
 				</a>
 			</div>
 		</div>
