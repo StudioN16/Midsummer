@@ -6,7 +6,7 @@ export default {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/Midsummer' : ''
+			base: '/Midsummer'
 		}
 	}
 };
