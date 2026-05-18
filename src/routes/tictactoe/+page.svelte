@@ -155,7 +155,7 @@
 				onclick={reset}
 				class="px-6 py-2 rounded-full border border-purple-800 text-purple-500 hover:bg-purple-950 hover:text-purple-200 transition-all duration-300 text-sm tracking-wide"
 			>
-				reset
+				videlicet
 			</button>
 		</div>
 	{/if}
